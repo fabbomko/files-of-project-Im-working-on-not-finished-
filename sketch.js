@@ -30,7 +30,7 @@ function setup() {
 	//Create the Bodies Here.
 
 	ball = Bodies.circle(200, 550, 20, ball_options);
-	World.add(ball);
+	World.add(world, ball).
 
 
 	groundObj = new Ground(width/2, 670, width, 20);
